@@ -28,7 +28,7 @@ struct SourceDTO: Codable {
     let name: String?
 }
 
-
+// This Data Transfer Object mapper
 extension ArticleDTO {
     func toDomain() -> Article {
         return Article(
