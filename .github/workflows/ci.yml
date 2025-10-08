@@ -26,5 +26,5 @@ jobs:
         run: |
           xcodebuild -project RevNewApp7Oct2025.xcodeproj \
           -scheme RevNewApp7Oct2025 \
-          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          -destination 'platform=iOS Simulator,name=iPhone 16' \
           clean build
