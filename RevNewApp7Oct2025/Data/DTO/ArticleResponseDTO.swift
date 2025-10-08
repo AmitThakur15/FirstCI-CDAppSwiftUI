@@ -19,8 +19,8 @@ struct ArticleDTO: Codable {
     let description: String?
     let url: String?
     let urlToImage: String?
-//    let publishedAt: String
-//    let content: String
+    let publishedAt: String?
+    let content: String?
 }
 
 struct SourceDTO: Codable {
@@ -37,9 +37,9 @@ extension ArticleDTO {
             title: title ?? "No Title",
             description: description ?? "",
             url: url ?? "",
-            imageUrl: urlToImage ?? ""
-//            publishedAt: publishedAt,
-//            content: content
+            imageUrl: urlToImage ?? "",
+            publishedAt: publishedAt ?? "",
+            content: content ?? ""
         )
     }
 }

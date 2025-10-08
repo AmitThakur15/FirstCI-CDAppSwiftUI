@@ -14,6 +14,6 @@ struct Article: Identifiable {
     let description: String
     let url: String
     let imageUrl: String?
-//    let publishedAt: String
-//    let content: String
+    let publishedAt: String
+    let content: String
 }
